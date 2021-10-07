@@ -1,0 +1,12 @@
+@import "../node_modules/prismjs/themes/prism-tomorrow";
+@import "./assets/scss/app.scss";
+@font-face {
+  font-family: "FUTURASTD-BOLD";
+  src: local("FUTURASTD-BOLD"),
+    url(./assets/fonts/FUTURASTD-BOLD.OTF) format("truetype");
+}
+@font-face {
+  font-family: "FUTURASTD-MEDIUM";
+  src: local("FUTURASTD-MEDIUM"),
+    url(./assets/fonts/FUTURASTD-MEDIUM.OTF) format("truetype");
+}

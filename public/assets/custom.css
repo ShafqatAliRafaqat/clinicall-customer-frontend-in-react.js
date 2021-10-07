@@ -1,0 +1,153 @@
+.sidebar-hdr-clr {
+  color: white;
+}
+.primary-bg {
+  background: #204593;
+}
+.font-9pt {
+  font-size: 9pt;
+}
+.font-11pt {
+  font-size: 11pt;
+}
+.font-18px {
+  font-size: 18px;
+}
+.font-24px {
+  font-size: 24px;
+}
+.view-left {
+  float: left;
+}
+.view-right {
+  float: right;
+  color: grey;
+}
+
+.animate {
+  background-color: #204593 !important;
+  transition: all 0.25s ease;
+}
+
+.animate:hover {
+  transform: translateY(-10px);
+  background-color: #204593 !important;
+}
+
+i {
+  /* Rest of CSS */
+  text-align: center;
+  width: 17px;
+}
+.footerPadding {
+  padding-left: 17rem !important;
+  padding-right: 17rem !important;
+}
+@media (max-width: 576px) {
+  .footerPadding {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+  .mb-xs-26 {
+    margin-bottom: 26px !important;
+  }
+}
+.brand-font-bold {
+  font-family: FUTURASTD-BOLD, serif;
+  font-size: 18pt;
+}
+.brand-font-medium {
+  font-family: FUTURASTD-MEDIUM, serif;
+  font-size: 18pt;
+}
+
+.padding-sm-6 {
+  padding: 0.6rem;
+}
+.mt-sm-6 {
+  margin-top: 0.7rem !important;
+}
+
+.scroll-x {
+  flex-wrap: nowrap !important;
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+}
+
+.nav-link {
+  display: flex !important;
+}
+
+@media (min-width: 992px) {
+  #user-profile .profile-header-nav .navbar .navbar-collapse .nav-item {
+    padding: 0 !important;
+  }
+}
+
+.nav_item_paddding_0 li {
+  padding-left: none !important;
+}
+
+.handleCursor {
+  cursor: pointer !important;
+}
+.map-autocomplete-search {
+  position: absolute !important;
+  min-width: 100%;
+  right: 0 !important;
+  top: 48px !important;
+  overflow: auto !important;
+  color: #000 !important;
+  max-height: 300px !important;
+  background-color: #fff !important;
+  box-shadow: #b3b3b3 0 0 5px 1px !important;
+  z-index: 99;
+}
+
+.cover-image {
+  max-width: 100% !important;
+  height: 22rem !important;
+}
+
+.profileIconSize {
+  font-size: 15px !important;
+}
+.white-background {
+  background-color: white;
+}
+.fullLayoutScroll {
+  overflow-x: hidden;
+}
+
+.footerBackground {
+  background-color: #204593 !important;
+  color: white !important;
+}
+.footerIcons {
+  font-size: 30px;
+  color: white;
+}
+.footerdivider {
+  background-color: inherit !important;
+}
+.profileIcon {
+  font-size: 18px;
+  padding-right: 2px;
+}
+.iconText {
+  margin-left: 9px;
+}
+.fontSizeDate {
+  font-size: 8px;
+}
+.forgetPassword {
+  font-size: 12px;
+  color: red !important;
+  cursor: pointer;
+}
+.doctorRound {
+  border-radius: 50%;
+}
+.reviewFont{
+  font-size: 12px;
+}
